@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: hiregami-eureka-server
+
+server:
+  port: 8761
+  servlet:
+    context-path: /eureka
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: localhost
+
